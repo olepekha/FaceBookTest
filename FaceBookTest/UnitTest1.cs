@@ -24,7 +24,12 @@ namespace FaceBookTest
         {
             driver = new ChromeDriver();
             var waitChr = new WebDriverWait(driver, t);
-        }
+             }
+        [Test]
+    
+    public void LoginTest()
+        {}
+    
         [OneTimeTearDown]
         public void CloseAppTest() //method to close app
         {
